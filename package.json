@@ -1,0 +1,14 @@
+{
+  "name": "clima",
+  "version": "1.0.0",
+  "description": "Proyecto ejemplo de ajax",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Dario Chamorro",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "lite-server": "^2.2.2"
+  }
+}

@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>clima</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="js/clima.js"></script>
+    </head>
+    <body>
+        <main>
+            <header>Clima Colombia</header>
+            <div class="container">
+                <aside>
+                    <ul>
+                        <li id="opc1" onclick="loadWeather('opc1','pasto')">Pasto</li>
+                        <li id="opc2" onclick="loadWeather('opc2','popayan')">Popayán</li>
+                        <li id="opc3" onclick="loadWeather('opc3','cali')">Cali</li>
+                        <li id="opc4" onclick="loadWeather('opc4','medellin')">Medellín</li>
+                        <li id="opc5" onclick="loadWeather('opc5','bogota')">Bogotá</li>
+                    </ul>
+                </aside>
+                <section>
+                    <h1 id="city"></h1>
+                    <h3 id="description"></h3>
+
+                    <table>
+                        <tr>
+                            <td>Temperatura</td>
+                            <td id="temp"></td>
+                        </tr>
+                        <tr>
+                            <td>Humedad</td>
+                            <td id="hum"></td>
+                        </tr>
+                        <tr>
+                            <td>Presion</td>
+                            <td id="pres"></td>
+                        </tr>
+                    </table>
+                        
+
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
